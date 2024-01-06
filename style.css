@@ -81,10 +81,10 @@
    cursor: pointer;
    /* display: none; */
 }
-/* .btn.active{
+.btn.active{
     display: flex;
 }
 
 .win{
     background-color: rgba(0,255,0,0.3);
-} */
+}
