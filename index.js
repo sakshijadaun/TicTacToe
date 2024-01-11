@@ -33,17 +33,17 @@ function initGame(){
 
 initGame();
 
-// //function of swap the turn of players
-// function swapTurn(){
-//     if(currentPlayer == "x"){
-//         currentPlayer = "0";
-//     }else{
-//         currentPlayer = "x";
-//     }
+//function of swap the turn of players
+function swapTurn(){
+    if(currentPlayer == "x"){
+        currentPlayer = "0";
+    }else{
+        currentPlayer = "x";
+    }
 
-//     //UI update 
-//     gameInfo.innerText = `current Player - ${currentPlayer}`;
-// }
+    //UI update 
+    gameInfo.innerText = `current Player - ${currentPlayer}`;
+}
 
 
 //function to mapping of values according to current user
